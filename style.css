@@ -1,0 +1,128 @@
+body{ 
+    margin: 0;
+    background-image:url(BG\ IMAGE.jpeg) ;
+}
+
+/*.loder{ 
+      height: 100px;
+      width: 100px;
+      border: 10px solid yellow;
+      border-top: 10px solid cyan;
+      border-radius: 80%;
+      animation:spinanimate 2s ease-in 0s   infinite normal; 
+}
+
+@keyframes spinanimate{
+           from{
+            transform:rotate(0deg);
+           }
+           to{ 
+            transform:rotate(360deg);
+           }
+        }*/
+   
+
+.navbar{height:1.4cm;
+     background-color: orange;
+     display: block;
+     border: 4px solid black;
+    
+
+}
+
+.navlogo{
+    height: 1cm;
+    width: 1cm;
+    border-radius: 80%;
+    margin-right: 120px;
+    margin-top: 5px;
+    margin-left: 4px;
+    
+}
+input{
+     font-size: 15px;
+     font-weight: bolder;
+     
+}
+.nave{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-right: 120px;
+    font-size: 30px;
+}
+
+.logo{ height: 6cm;
+    width: 6cm;
+    border-radius: 80%;
+    margin:0 auto;
+    display: block;
+    transition-property: all;
+    transition-duration: 2s;
+
+
+}
+.logo:hover{
+           height: 8cm;
+           width: 8cm;
+           transform: rotate(360deg);
+}
+
+.welcome{
+    background-color: orange;
+    text-align: center;
+    font-size: 35px;
+}
+
+#fl{
+    width: 40%;
+    height: 4px;
+    background-color: white;
+}
+
+.spl{
+    background-color: navy;
+    color: wheat;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.hr{
+    
+    height:4px;
+    background-color: white;
+}
+
+
+.defi{
+    background-color: cyan;
+    font-size:25px
+}
+
+.about{
+    background-color: cyan;
+    font-size:20px
+}
+
+button{
+    color:black;
+    background-color: cyan;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.namel{
+    text-align: center;
+    color:red;
+    font-weight:bolder;
+    font-size: 25px;
+    text-decoration: 4px solid underline;
+    
+}
+
+.comingsoon{
+    background-color: red;
+    text-align: center;
+    font-size:50px
+}
